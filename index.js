@@ -1,5 +1,7 @@
 let readlineSync = require("readline-sync")
 const chalk = require("chalk")
+ 
+console.clear();
 
 console.log(chalk.dim("This quiz contains 10 questions\nJust enter the option for answers like (a/b/c)\n"))
 
